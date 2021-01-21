@@ -1,0 +1,11 @@
+..\obj\bluetooth.o: ..\HARDWARE\BLUETOOTH\bluetooth.c
+..\obj\bluetooth.o: ..\HARDWARE\BLUETOOTH\bluetooth.h
+..\obj\bluetooth.o: ..\SYSTEM\sys\sys.h
+..\obj\bluetooth.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\bluetooth.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\bluetooth.o: C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bluetooth.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\bluetooth.o: C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\bluetooth.o: ..\SYSTEM\usart\usart.h
+..\obj\bluetooth.o: ..\SYSTEM\delay\delay.h
+..\obj\bluetooth.o: ..\HARDWARE\WHEEL\wheel.h

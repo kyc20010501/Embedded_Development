@@ -1,0 +1,91 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\startup_stm32f10x_hd.s)(0x54B0B2F0)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list ..\obj\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (.\test.c)(0x5FB501D2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\test.o --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F2)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\HARDWARE\WHEEL\wheel.h)(0x5F940416)
+I (..\HARDWARE\INRED\inred.h)(0x5FB25A46)
+I (..\HARDWARE\KEY\key.h)(0x5F8CE376)
+I (..\HARDWARE\LED\led.h)(0x5F5EF69C)
+I (..\HARDWARE\HC6\hc6.h)(0x5F8FEB8E)
+I (..\HARDWARE\BLUETOOTH\bluetooth.h)(0x5F8FF3E4)
+F (..\SYSTEM\delay\delay.c)(0x555AC5E2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\delay.o --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+F (..\SYSTEM\sys\sys.c)(0x550EB962)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\sys.o --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+F (..\SYSTEM\usart\usart.c)(0x5DE1F136)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\usart.o --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F2)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\README.TXT)(0x55C9BF78)()
+F (..\HARDWARE\LED\led.c)(0x5F5EF69C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\led.o --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x5F5EF69C)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+F (..\HARDWARE\WHEEL\wheel.c)(0x5F940416)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\wheel.o --depend ..\obj\wheel.d)
+I (..\HARDWARE\WHEEL\wheel.h)(0x5F940416)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+F (..\HARDWARE\INRED\inred.c)(0x5FB25A46)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\inred.o --depend ..\obj\inred.d)
+I (..\HARDWARE\INRED\inred.h)(0x5FB25A46)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+F (..\HARDWARE\KEY\key.c)(0x5F8CE374)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\key.o --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x5F8CE376)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+F (..\HARDWARE\BLUETOOTH\bluetooth.c)(0x5FB25946)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\bluetooth.o --depend ..\obj\bluetooth.d)
+I (..\HARDWARE\BLUETOOTH\bluetooth.h)(0x5F8FF3E4)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F2)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+I (..\HARDWARE\WHEEL\wheel.h)(0x5F940416)
+F (..\HARDWARE\HC6\hc6.c)(0x5FB276FC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\WHEEL -I ..\HARDWARE\INRED -I ..\HARDWARE\KEY -I ..\HARDWARE\HC6 -I ..\HARDWARE\BLUETOOTH-I.\RTE\_Target_1-IC:\Users\kyc20010501\APP\MDK5\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Users\kyc20010501\APP\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o ..\obj\hc6.o --depend ..\obj\hc6.d)
+I (..\HARDWARE\HC6\hc6.h)(0x5F8FEB8E)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B5A)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E3C4E)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+I (..\HARDWARE\WHEEL\wheel.h)(0x5F940416)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F2)
+I (C:\Users\kyc20010501\APP\MDK5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
